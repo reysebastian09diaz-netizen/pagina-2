@@ -2,110 +2,167 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Restaurante Italiano</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Mario Rossi</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<div class="contenedor">
 
-    <h1>Chef Mario Rossi</h1>
+    <header>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Menú</a>
-        <a href="#">Reservas</a>
-    </nav>
+        <h1>Chef Mario Rossi</h1>
 
-</header>
+        <nav>
+            <a href="#">INICIO</a>
+            <a href="#">SOBRE MÍ</a>
+            <a href="#">MENÚ</a>
+            <a href="#">RESERVAS</a>
+        </nav>
 
-<section class="principal">
+    </header>
 
-    <div class="texto">
+    <section class="principal">
 
-        <h2>Sabor que cuenta historias</h2>
+        <div class="texto">
 
-        <p>
-            Chef italiano con muchos años de experiencia
-            preparando platos tradicionales.
-        </p>
+            <p class="bienvenido">BENVENUTI</p>
 
-        <button>Ver menú</button>
+            <h2>Sabor que cuenta historias</h2>
 
-    </div>
+            <p>
+                Soy Mario Rossi, chef italiano con más de 20 años
+                de experiencia transformando ingredientes simples
+                en experiencias inolvidables.
+            </p>
 
-    <div class="imagen">
+            <button>VER EL MENÚ</button>
 
-        <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="Chef">
+        </div>
 
-    </div>
+        <div class="chef">
 
-</section>
+            <img src="imagenes/chef.png" alt="Chef">
 
-<section class="datos">
+        </div>
 
-    <div class="dato">
-        <h3>20+</h3>
-        <p>Años</p>
-    </div>
+    </section>
 
-    <div class="dato">
-        <h3>150</h3>
-        <p>Recetas</p>
-    </div>
+    <section class="estadisticas">
 
-    <div class="dato">
-        <h3>5</h3>
-        <p>Premios</p>
-    </div>
+        <div class="dato">
+            <h3>20+</h3>
+            <p>AÑOS DE EXPERIENCIA</p>
+        </div>
 
-    <div class="dato">
-        <h3>10K</h3>
-        <p>Clientes</p>
-    </div>
+        <div class="dato">
+            <h3>150</h3>
+            <p>RECETAS CREADAS</p>
+        </div>
 
-</section>
+        <div class="dato">
+            <h3>5</h3>
+            <p>ESTRELLAS MICHELIN</p>
+        </div>
 
-<section class="frase">
+        <div class="dato">
+            <h3>10K</h3>
+            <p>COMENSALES FELICES</p>
+        </div>
 
-    <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Pasta">
+    </section>
 
-    <p>La cocina es un acto de amor.</p>
+    <section class="frase">
 
-</section>
+        <div class="icono">
 
-<section class="platos">
+            <img src="imagenes/pasta.png" alt="Pasta">
 
-    <h2>Platos especiales</h2>
+        </div>
 
-    <div class="tarjeta">
+        <div class="texto-frase">
 
-        <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Pizza">
+            <p>
+                "La cocina es un acto de amor. Cada ingrediente
+                fresco cuenta una historia."
+            </p>
 
-        <h3>Pizza</h3>
+            <h4>MARIO ROSSI</h4>
 
-        <p>$28.000</p>
+        </div>
 
-    </div>
+    </section>
 
-    <div class="tarjeta">
+    <section class="platos">
 
-        <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Pasta">
+        <h2>Mis platos especiales</h2>
 
-        <h3>Pasta</h3>
+        <div class="tarjeta">
 
-        <p>$32.000</p>
+            <div class="imagen-plato">
+                <img src="imagenes/pizza.png" alt="Pizza">
+            </div>
 
-    </div>
+            <div class="info">
+                <h3>Pizza Margherita</h3>
+                <p>$28.000</p>
+                <button>ORDENAR</button>
+            </div>
 
-</section>
+        </div>
 
-<footer>
+        <div class="tarjeta">
 
-    <p>Todos los derechos reservados</p>
+            <div class="imagen-plato">
+                <img src="imagenes/pasta.png" alt="Pasta">
+            </div>
 
-</footer>
+            <div class="info">
+                <h3>Pasta Carbonara</h3>
+                <p>$32.000</p>
+                <button>ORDENAR</button>
+            </div>
+
+        </div>
+
+        <div class="tarjeta">
+
+            <div class="imagen-plato">
+                <img src="imagenes/ensalada.png" alt="Ensalada">
+            </div>
+
+            <div class="info">
+                <h3>Insalata Caprese</h3>
+                <p>$26.000</p>
+                <button>ORDENAR</button>
+            </div>
+
+        </div>
+
+        <div class="tarjeta">
+
+            <div class="imagen-plato">
+                <img src="imagenes/postre.png" alt="Tiramisú">
+            </div>
+
+            <div class="info">
+                <h3>Tiramisú Clásico</h3>
+                <p>$18.000</p>
+                <button>ORDENAR</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>Copyright © 2026 - Todos los derechos reservados</p>
+
+    </footer>
+
+</div>
 
 </body>
 </html>

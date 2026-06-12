@@ -1,92 +1,168 @@
 body{
-    background:#f5efe2;
-    font-family:Arial;
+    background:#0f0606;
     margin:0;
+    font-family:Georgia, serif;
+}
+
+.contenedor{
+    width:90%;
+    margin:auto;
+    background:#f4efe3;
 }
 
 header{
-    background:#4b1f1f;
-    color:white;
+    background:linear-gradient(to right,#2b0e0e,#4b1f1f);
     text-align:center;
-    padding:20px;
+    padding:25px;
+}
+
+header h1{
+    color:#dcb36d;
 }
 
 nav a{
     color:white;
     text-decoration:none;
     margin:10px;
+    font-size:12px;
 }
 
 .principal{
-    padding:30px;
+    padding:50px;
     overflow:hidden;
 }
 
 .texto{
-    width:50%;
+    width:45%;
     float:left;
+    text-align:center;
 }
 
-.imagen{
+.bienvenido{
+    color:#dcb36d;
+}
+
+.texto h2{
+    color:#c95c3d;
+    font-size:45px;
+}
+
+.texto p{
+    color:#333;
+}
+
+.texto button{
+    background:#c95c3d;
+    color:white;
+    border:none;
+    padding:10px 15px;
+}
+
+.chef{
     width:40%;
     float:right;
     text-align:center;
 }
 
-.imagen img{
-    width:200px;
-}
-
-button{
-    background:#c95c3d;
-    color:white;
-    border:none;
-    padding:10px;
-}
-
-.datos{
-    background:#d66349;
-    text-align:center;
+.chef img{
+    width:220px;
+    height:220px;
+    border:4px solid #4b2b1f;
     padding:20px;
-    color:white;
+}
+
+.estadisticas{
+    background:#d46348;
+    padding:30px 0;
+    overflow:hidden;
+    text-align:center;
 }
 
 .dato{
-    width:24%;
-    display:inline-block;
+    width:25%;
+    float:left;
+    color:white;
+}
+
+.dato h3{
+    font-size:40px;
+    margin:0;
 }
 
 .frase{
-    background:#4b1f1f;
+    background:linear-gradient(to right,#2b0e0e,#4b1f1f);
+    padding:40px;
+    overflow:hidden;
     color:white;
-    text-align:center;
-    padding:20px;
 }
 
-.frase img{
-    width:70px;
+.icono{
+    width:20%;
+    float:left;
+    text-align:center;
+}
+
+.icono img{
+    width:80px;
+}
+
+.texto-frase{
+    width:70%;
+    float:left;
 }
 
 .platos{
+    padding:50px;
     text-align:center;
-    padding:30px;
+    overflow:hidden;
+}
+
+.platos h2{
+    color:#3d2b1f;
 }
 
 .tarjeta{
-    width:40%;
+    width:45%;
     background:white;
+    float:left;
     margin:10px;
-    display:inline-block;
-    padding:10px;
 }
 
-.tarjeta img{
-    width:100px;
+.imagen-plato{
+    width:35%;
+    float:left;
+    background:#d9b07a;
+    text-align:center;
+}
+
+.imagen-plato img{
+    width:80px;
+    height:80px;
+    padding:20px;
+}
+
+.info{
+    width:55%;
+    float:left;
+    padding:10px;
+    text-align:left;
+}
+
+.info h3{
+    color:#c95c3d;
+}
+
+.info button{
+    background:#c95c3d;
+    color:white;
+    border:none;
+    padding:8px 12px;
 }
 
 footer{
-    background:#4b1f1f;
+    background:linear-gradient(to right,#2b0e0e,#4b1f1f);
     color:white;
     text-align:center;
-    padding:15px;
+    padding:20px;
+    clear:both;
 }
